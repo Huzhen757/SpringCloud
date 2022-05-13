@@ -1,0 +1,40 @@
+server:
+  port: 8101
+
+spring:
+  application:
+    name: cloud-rabbitmq-provider
+  rabbitmq:
+    host: 192.168.45.128
+    username: huzhen
+    password: hz1234
+    port: 5672
+
+  cloud:
+    stream:
+      binders: # 配置需要绑定的RabbitMQ的服务信息
+        defaultRabbit: # 表示定义的名称，用于binding的整合
+          type: rabbit # 消息组件类型
+          environment: # 配置RabbitMQ的环境
+            spring:
+              rabbitmq:
+                host: 192.168.45.128
+                username: huzhen
+                password: hz1234
+                port: 5672
+# 服务的整合处理
+      bindings:
+        output: # 生产者
+          destination: studyExchange      # Exchange名称
+          content-type: application/json # 设置消息类型，使用json，文本数据使用"text/plain"
+          binder: defaultRabbit       # 设置需要绑定哪一个消息服务(对应消息服务名)
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 30 # 心跳的间隔时间
+    lease-renewal-interval-in-seconds: 60    # 间隔时间
+    instance-id: send-8101.com # 信息列表中显示的主机名
+    prefer-ip-address: true    # 访问路径使用IP地址

@@ -1,0 +1,2 @@
+com\hz\openfeign\controller\orderFeignController.class
+com\hz\openfeign\service\PaymentFeignService.class

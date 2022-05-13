@@ -1,0 +1,46 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource                  # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver                  # mysql驱动包
+    url: jdbc:mysql:///cloud?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+  # 添加关于Sleuth和zipkin的配置
+  zipkin:
+    base-url: http://localhost:9411/ # zipkin的web地址
+  sleuth:
+    sampler:
+      probability: 1  # 采样率在0-1之间，1表示全部采样
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hz.entities          # 所有Entity别名类所在的包路径
+
+eureka:
+  client:
+    register-with-eureka: true # 表示注册中心注册
+    fetchRegistry: true       # 是否从EurekaServer抓取已有的注册信息默认为true 单节点无所谓 集群必须设置为true才能配合Ribbon使用负载均衡
+    service-url:              # 将8001微服务注册到Eureka集群中的每一个节点中
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka, http://eureka7003.com:7003/eureka
+      # defaultZone: http://localhost:7001/eureka # Eureka Server(单机版的Client注册)
+  # 主机名服务名修改  访问路径可以显示IP地址
+  instance:
+    instance-id: payment8001
+    prefer-ip-address: true
+    # 设置client发送心跳包的时间间隔(默认30s)
+    lease-renewal-interval-in-seconds: 30
+    # EurekaServer收到最后一次心跳包之后的等待时间，默认90s
+    lease-expiration-duration-in-seconds: 90
+
+
+
+
+
+
+

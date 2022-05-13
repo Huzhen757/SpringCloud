@@ -1,0 +1,24 @@
+server:
+  port: 8402
+
+spring:
+  application:
+    name: cloudalibaba-sentinel-lb-order
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+# 配置Sentinel Dashboard地址
+    sentinel:
+      transport:
+        dashboard: localhost:8080 # 80端口监视8402
+        port: 8719
+
+# order8402将要访问的微服务名称(URL)
+service-url:
+  nacos-user-service: http://cloudalibaba-sentinel-lb-provider
+# 开启Sentinel对OpenFeign的支持
+feign:
+  sentinel:
+    enabled: true

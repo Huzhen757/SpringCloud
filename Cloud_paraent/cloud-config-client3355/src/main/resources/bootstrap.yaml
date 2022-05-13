@@ -1,0 +1,35 @@
+# Boostrap Context 负责从外部资源加载配置属性并且解析配置
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  # Config Client配置
+  cloud:
+    config:
+      # label下的{name}-{profile}合并成config-dev 与uri组合最后访问路径http://config3344.com:3344/main/config-dev.yaml
+      label: main  # 分支名
+      name: config # 配置文件名
+      profile: dev # 读取的后缀名
+      uri: http://localhost:3344
+  # 配置rabbitMQ
+  rabbitmq:
+    host: 192.168.45.128
+    username: huzhen
+    password: hz1234
+    port: 5672
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

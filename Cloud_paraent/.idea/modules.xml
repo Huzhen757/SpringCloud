@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cloud_paraent.iml" filepath="$PROJECT_DIR$/.idea/Cloud_paraent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" filepath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" filepath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" filepath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-consul-order80/cloud-consumer-consul-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-consul-order80/cloud-consumer-consul-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-openfegin-order80/cloud-consumer-openfegin-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-openfegin-order80/cloud-consumer-openfegin-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order80/cloud-consumer-openfeign-hystrix-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order80/cloud-consumer-openfeign-hystrix-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-zk-order80/cloud-consumer-zk-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-zk-order80/cloud-consumer-zk-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-consul-payment8006/cloud-provider-consul-payment8006.iml" filepath="$PROJECT_DIR$/cloud-provider-consul-payment8006/cloud-provider-consul-payment8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8102/cloud-stream-rabbitmq-consumer8102.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8102/cloud-stream-rabbitmq-consumer8102.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8103/cloud-stream-rabbitmq-consumer8103.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8103/cloud-stream-rabbitmq-consumer8103.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8101/cloud-stream-rabbitmq-provider8101.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8101/cloud-stream-rabbitmq-provider8101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_api_commons/cloud_api_commons.iml" filepath="$PROJECT_DIR$/cloud_api_commons/cloud_api_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_consumer_order8080/cloud_consumer_order8080.iml" filepath="$PROJECT_DIR$/cloud_consumer_order8080/cloud_consumer_order8080.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_eureka_server7001/cloud_eureka_server7001.iml" filepath="$PROJECT_DIR$/cloud_eureka_server7001/cloud_eureka_server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_eureka_server7002/cloud_eureka_server7002.iml" filepath="$PROJECT_DIR$/cloud_eureka_server7002/cloud_eureka_server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_eureka_server7003/cloud_eureka_server7003.iml" filepath="$PROJECT_DIR$/cloud_eureka_server7003/cloud_eureka_server7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_provider_hystrix_payment8001/cloud_provider_hystrix_payment8001.iml" filepath="$PROJECT_DIR$/cloud_provider_hystrix_payment8001/cloud_provider_hystrix_payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_provider_payment8001/cloud_provider_payment8001.iml" filepath="$PROJECT_DIR$/cloud_provider_payment8001/cloud_provider_payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_provider_payment8002/cloud_provider_payment8002.iml" filepath="$PROJECT_DIR$/cloud_provider_payment8002/cloud_provider_payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_provider_payment8004/cloud_provider_payment8004.iml" filepath="$PROJECT_DIR$/cloud_provider_payment8004/cloud_provider_payment8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-order9090/cloudalibaba-consumer-order9090.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-order9090/cloudalibaba-consumer-order9090.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-lb-order8402/cloudalibaba-sentinel-lb-order8402.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-lb-order8402/cloudalibaba-sentinel-lb-order8402.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-lb-payment9003/cloudalibaba-sentinel-lb-payment9003.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-lb-payment9003/cloudalibaba-sentinel-lb-payment9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-lb-payment9004/cloudalibaba-sentinel-lb-payment9004.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-lb-payment9004/cloudalibaba-sentinel-lb-payment9004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-account-service6002/seata-account-service6002.iml" filepath="$PROJECT_DIR$/seata-account-service6002/seata-account-service6002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service6001/seata-order-service6001.iml" filepath="$PROJECT_DIR$/seata-order-service6001/seata-order-service6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service6003/seata-storage-service6003.iml" filepath="$PROJECT_DIR$/seata-storage-service6003/seata-storage-service6003.iml" />
+    </modules>
+  </component>
+</project>

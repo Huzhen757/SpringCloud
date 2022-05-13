@@ -1,0 +1,18 @@
+server:
+  port: 7001
+
+# 对于Eureka集群 互相注册 相互守望 每个Server都需要注册其他Server的信息
+eureka:
+  instance:
+    hostname: eureka7001.com # Eureka服务器端的实例名
+  client:
+    register-with-eureka: false # 表示不向注册中心注册自己
+    fetch-registry: false       # 本地端口就是服务注册中心，维护服务实例，不需要去检索服务
+    service-url:
+      defaultZone: http://eureka7002.com:7002/eureka, http://eureka7003.com:7003/eureka
+      # 设置于Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址(单机版)
+      # defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+#  server:
+#    enable-self-preservation: false  # 关闭自我保护机制
+#    eviction-interval-timer-in-ms: 20000 # 20s没有发送心跳包，直接注销微服务

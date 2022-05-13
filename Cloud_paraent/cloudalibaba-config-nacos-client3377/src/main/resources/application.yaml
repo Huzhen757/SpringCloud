@@ -1,0 +1,7 @@
+# Nacos注册配置 spring.profiles.active指定哪个环境就加载哪个配置
+spring:
+  profiles:
+    active: dev # 指定当前开发环境
+#    active: test # 指定当前开发环境
+#    active: info  # 指定当前开发环境
+

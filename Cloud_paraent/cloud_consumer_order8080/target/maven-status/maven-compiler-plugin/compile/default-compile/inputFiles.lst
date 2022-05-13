@@ -1,0 +1,6 @@
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\hz\config\ApplicationContextConfig.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\hz\loadBalancer\MyLoadBalancer.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\hz\loadBalancer\MyLB.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\hz\openfeign\controller\OrderController.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\hz\consumer\OrderMain80.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud_consumer_order8080\src\main\java\com\myrule\MyRibbonRule.java

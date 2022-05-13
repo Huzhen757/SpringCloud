@@ -1,0 +1,38 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
+# RabbitMQ的配置 注意15672是web界面的访问端口 5672才是RabbitMQ的访问端口
+  rabbitmq:
+    host: 192.168.45.128
+    port: 5672
+    username: huzhen
+    password: hz1234
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Huzhen757/SpringCloud-Config.git # github上的git仓库名(中心化的外部配置)
+          search-paths:
+            - SpringCloud-Config # 搜索目录
+          username: Huzhen
+          password: 7507540faker
+          force-pull: true
+      label: main # 读取哪个分支
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+# 暴露Bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
+

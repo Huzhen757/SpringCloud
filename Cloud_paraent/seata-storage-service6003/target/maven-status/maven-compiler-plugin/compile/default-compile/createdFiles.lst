@@ -1,0 +1,8 @@
+com\hz\storage6003\domain\Storage.class
+com\hz\storage6003\SeataStorageMain6003.class
+com\hz\storage6003\service\StorageService.class
+com\hz\storage6003\config\DataSourceProxyConfig.class
+com\hz\storage6003\config\MyBatisConfig.class
+com\hz\storage6003\dao\StorageDao.class
+com\hz\storage6003\controller\StorageController.class
+com\hz\storage6003\service\impl\StorageServiceImpl.class

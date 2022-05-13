@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39c9b580-f364-427d-ae09-9b1a2d1ea373" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java_tools\maven_local" />
+        <option name="mavenHome" value="D:\java\apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="27pCXGrFe2PjgEutyldEZEThAo0" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-account-service6002/src/main/java/com/hz/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringCloud_Hoxton.SR1\Cloud_paraent\seata-account-service6002\src\main\java\com\hz\config" />
+      <recent name="D:\SpringCloud_Hoxton.SR1\Cloud_paraent\seata-storage-service6003\src\main\java\com\hz\config" />
+      <recent name="D:\SpringCloud_Hoxton.SR1\Cloud_paraent\seata-storage-service6003\src\main\resources" />
+      <recent name="D:\SpringCloud_Hoxton.SR1\Cloud_paraent\seata-account-service6002\src\main\resources" />
+      <recent name="D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloudalibaba-consumer-order9090\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hz.cloud.entities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeataAccountMain6002">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.CloudConfig.ConfigCenterMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.configClient.ConfigClient3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.configClient.ConfigClient3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_eureka_server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.eurekaMain.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_eureka_server7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.eurekaMain.EurekaMain7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.gateway.GatewayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.dashboard.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-openfeign-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.HystrixOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixPaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_provider_hystrix_payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.hystrix.HystrixPaymentMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosOrder9090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-consumer-order9090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.nacos.NacosOrder9090" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProvider9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.nacos.NacosProvider9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProvider9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.nacos.NacosProvider9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsulMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-consul-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.orderMain.OrderConsulMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_consumer_order8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.consumer.OrderMain80" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_321\jre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMainFeign80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-openfegin-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.openfeign.OrderMainFeign80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-zk-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.orderZk.OrderZkMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentConsul8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-consul-payment8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.consulMain.PaymentConsul8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_provider_payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.cloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_provider_payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.cloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_provider_payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.cloud.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountMain6002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-account-service6002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.SeataAccountMain6002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMain6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-order-service6001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.SeataOrderMain6001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageMain6003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-storage-service6003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hz.storage6003.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.storage6003.SeataStorageMain6003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelLBOrder8402" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-lb-order8402" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hz.sentinel_lb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.sentinel_lb.SentinelLBOrder8402" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelLBPayment9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-sentinel-lb-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.sentinel_lb.SentinelLBPayment9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelLBPayment9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-lb-payment9004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hz.sentinel_lb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.sentinel_lb.SentinelLBPayment9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelService8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hz.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.sentinel.SentinelService8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQ8101" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8101" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.stream.StreamMQ8101" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQ8102" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8102" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.stream.StreamMQ8102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQ8103" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8103" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hz.stream.StreamMQ8103" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.EurekaMain7002" />
+      <item itemvalue="Spring Boot.EurekaMain7003" />
+      <item itemvalue="Spring Boot.PaymentMain8004" />
+      <item itemvalue="Spring Boot.OrderZkMain80" />
+      <item itemvalue="Spring Boot.PaymentConsul8006" />
+      <item itemvalue="Spring Boot.OrderConsulMain" />
+      <item itemvalue="Spring Boot.PaymentMain8002" />
+      <item itemvalue="Spring Boot.OrderMainFeign80" />
+      <item itemvalue="Spring Boot.HystrixOrderMain" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+      <item itemvalue="Spring Boot.HystrixPaymentMain" />
+      <item itemvalue="Spring Boot.GatewayMain9527" />
+      <item itemvalue="Spring Boot.ConfigCenterMain" />
+      <item itemvalue="Spring Boot.ConfigClient3355" />
+      <item itemvalue="Spring Boot.ConfigClient3366" />
+      <item itemvalue="Spring Boot.StreamMQ8101" />
+      <item itemvalue="Spring Boot.StreamMQ8102" />
+      <item itemvalue="Spring Boot.StreamMQ8103" />
+      <item itemvalue="Spring Boot.NacosProvider9002" />
+      <item itemvalue="Spring Boot.SentinelLBPayment9003" />
+      <item itemvalue="Spring Boot.NacosOrder9090" />
+      <item itemvalue="Spring Boot.NacosProvider9001" />
+      <item itemvalue="Spring Boot.SeataOrderMain6001" />
+      <item itemvalue="Spring Boot.SeataAccountMain6002" />
+      <item itemvalue="Spring Boot.SentinelService8401" />
+      <item itemvalue="Spring Boot.SentinelLBPayment9004" />
+      <item itemvalue="Spring Boot.SentinelLBOrder8402" />
+      <item itemvalue="Spring Boot.SeataStorageMain6003" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataStorageMain6003" />
+        <item itemvalue="Spring Boot.SentinelService8401" />
+        <item itemvalue="Spring Boot.SentinelLBOrder8402" />
+        <item itemvalue="Spring Boot.SentinelLBPayment9004" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39c9b580-f364-427d-ae09-9b1a2d1ea373" name="Default Changelist" comment="" />
+      <created>1650007677592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650007677592</updated>
+      <workItem from="1650007678682" duration="10937000" />
+      <workItem from="1650089744958" duration="7577000" />
+      <workItem from="1650193842634" duration="20743000" />
+      <workItem from="1650284451745" duration="1117000" />
+      <workItem from="1650285585505" duration="701000" />
+      <workItem from="1650286316977" duration="3611000" />
+      <workItem from="1650290025800" duration="3323000" />
+      <workItem from="1650293692998" duration="24857000" />
+      <workItem from="1650964661304" duration="43132000" />
+      <workItem from="1651582081489" duration="120496000" />
+      <workItem from="1652363824258" duration="14203000" />
+      <workItem from="1652430747620" duration="4917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

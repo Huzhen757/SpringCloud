@@ -1,0 +1,4 @@
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud-consumer-openfeign-hystrix-order80\src\main\java\com\hz\service\OrderHystrixService.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud-consumer-openfeign-hystrix-order80\src\main\java\com\hz\controller\OrderHystrixController.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud-consumer-openfeign-hystrix-order80\src\main\java\com\hz\HystrixOrderMain.java
+D:\SpringCloud_Hoxton.SR1\Cloud_paraent\cloud-consumer-openfeign-hystrix-order80\src\main\java\com\hz\service\impl\OrderFallbackService.java

@@ -1,0 +1,18 @@
+server:
+  port: 80 # 用户不需要写端口号访问
+
+spring:
+  application:
+    name: cloud-payment-order-zk
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource                # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver                  # mysql驱动包
+    url: jdbc:mysql:///cloud?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+
+  cloud:
+    zookeeper:
+      connect-string: 192.168.45.128:2181
+

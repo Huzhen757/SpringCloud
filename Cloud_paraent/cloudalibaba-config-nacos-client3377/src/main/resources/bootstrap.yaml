@@ -1,0 +1,26 @@
+# 针对单级模式Nacos的配置 使用默认数据库derby
+server:
+  port: 3377
+
+spring:
+  application:
+#    name: nacos-config-center
+    name: nginx-nacos-cluster-client
+  # Nacos的注册中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.45.128:2222
+      config:
+    #    server-addr: localhost:8848     # 指定本地Nacos配置中心地址
+        server-addr: 192.168.45.128:2222  # 指定Ngnix的2222号端口
+        file-extension: yaml           # 指定yaml格式的配置(可读取后缀名为yaml格式的文件)
+        group: DEFAULT_GROUP           # 指定哪个group
+      #  namespace: 74b75190-53eb-45b8-a0af-622aacfc4308 # 指定哪一个namespace 不指定该参数则使用默认的Namespace=public
+
+# nacos中DataId匹配规则
+# ${prefix}-${spring.profile.active}.${file-extension}  =>
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# nacos-config-center-dev.yaml  -> 读取Nacos配置中心的配置
+
+
